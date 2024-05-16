@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        body,ul,li{
+            margin:0;
+            padding:0;
+            list-style: none;
+        } 
+        .navbar{
+            background-color: aquamarine;
+            overflow: hidden;
+        }
+        .navbar ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .navbar li{
+            display:inline;
+        }
+        .navbar a{
+            display: block;
+            color:white;
+            text-align: center;
+            padding:14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover{
+            background-color: brown;
+            color:black
+        }
+        .navbar ul{
+            flex-direction: column;
+            width:100%;
+        } 
+        .navbar li{
+            width:100%;
+        } 
+        .navbar a{
+            text-align: left;
+            padding-left: 20px;
+        } 
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a haref="home">Home</a></li>
+            <li><a haref="Services">Services</a></li>
+            <li><a haref="about"></a>About</li>
+            <li><a haref="contact"></a>Contact</li>
+
+        </ul>
+    </nav>
+</body>
+</html>
